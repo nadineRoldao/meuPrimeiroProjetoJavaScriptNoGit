@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>objeto date</title>
+		<script type="text/javascript">
+			//recuperando a data atual
+			var dataHoje = new Date();
+
+			//este formato retorna a data completa
+			alert("data completa:" + dataHoje);
+			//recuperar só a hora (0 à 24)
+			alert("horas:" + dataHoje.getHours());
+			//recuperar só o minuto (0 à 60)
+			alert("minutos:" + dataHoje.getMinutes());
+			//recuperar só os segundos (0 à 60)
+			alert("segundos:" + dataHoje.getSeconds());
+			//recuperar só o dia do mês 
+			alert("dia do mes:" + dataHoje.getDate());
+			//recuperar só o dia da semana
+			alert("dia da semana:" + dataHoje.getDay());
+			//recuperar só o ano
+			alert("ano:" + dataHoje.getFullYear());
+			//recuperar só  o mês
+			alert("mes:" + dataHoje.getMonth() + 1);
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

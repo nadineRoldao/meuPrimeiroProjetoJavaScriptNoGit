@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html>
+ 	 <head>
+  		<title>aula objeto math</title>
+  		<script type="text/javascript">
+
+  			window.onload = function(){
+  				document.getElementById("calculo").onclick = calcular;
+  			}
+
+  			function calcular(){
+  				//arredondamento
+  				alert(Math.round(4.7));//return = 5
+  				alert(Math.round(4.4));//return = 4
+  				//raiz quadrada, sqrt é uma abreviação de square e root
+  				alert(Math.sqrt(64));//return = 8
+  				//obter numeros aleatórios
+  				var al = Math.floor(Math.random()*11);
+  				//ele vai gerar números randômicos entre 0 e 10
+  				alert(al);
+  			}
+
+  		</script>
+ 	 </head>
+  	<body>
+  		<h1 id="calculo">clique aqui para calcular</h1>
+  	</body>
+  </html>  
